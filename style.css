@@ -1,0 +1,129 @@
+ body{
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        .main-content{
+            display: grid;
+            grid-template-columns: 300px 700px;
+            min-height: 1000px;
+            width: 1000px;
+        }
+
+        .left-section{
+        background-color: rgb(113, 134, 152);
+        }
+
+        .right-section{
+        background-color: white;
+        }
+
+        .left-content{
+         padding: 1rem;
+         
+        }
+
+        .mydp{
+            display: block;
+            align-items: center;
+            margin: auto;
+            border: 5px solid white;
+            border-radius: 30%;
+            height: auto;
+            overflow:hidden;
+            width: 60%;
+        }
+        .name{
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.02px;
+            padding: 0.8 rem; 
+            font-family: sans-serif;
+            color: white;
+            
+        }
+        .designation{
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5 rem;
+            font-family: sans-serif;
+            color: rgb(172, 221, 251);
+        }
+        .description{
+            font-size: 0.75rem;
+            text-align: center;
+            padding:  10px; 
+            font-family: sans-serif;
+            color: white;
+            border-top: 2px solid white;
+            
+        }
+
+        .social-logo{
+            display: flex;
+            justify-content: space-around;
+        }
+        svg{
+            color: white;
+        }
+        .skills{
+            font-size: 0.75 rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 1rem 0.5rem;
+            color: white;
+            
+            
+        }
+        .skill-name{
+            font-size: 0.65 rem;
+            font-weight: 0.65 rem;
+            padding-bottom: 0.5 rem;
+            color: white;
+        }
+        .progress-bar{
+            height:4px;
+            border: 1px white solid; 
+            
+        }
+        .contact{
+            color: white;
+        }
+        .right-main-content{
+            padding: 32px 48px;
+            
+        }
+        .right-title{
+            text-transform: uppercase;
+            font-size: 1.2 rem;
+            font-weight: 700;
+            padding: 5px 15px;
+            letter-spacing: 1px;
+            background-color: lightslategray;
+            color: white;
+        }
+        .year{
+            font-weight: 700;
+            font-size: 1.5rem;
+            
+            color: rgb(21, 26, 34);
+            
+            /* border: 1px solid red; */
+        }
+        .right-section td:nth-child(2){
+            color: rgb(21, 26, 34);
+            
+        }
+        table li{
+            padding: 5px;
+            font-size: small;
+        }
+        
+        @media screen and (max-width: 673px) {
+         .main-content {
+        grid-template-columns: repeat(1, 1fr);
+        }
+}
+        
